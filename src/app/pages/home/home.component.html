@@ -1,0 +1,7 @@
+<section>
+	<app-card-news
+		*ngFor="let item of news"
+		(click)="openDetail(item)"
+		[news]="item"
+	></app-card-news>
+</section>
